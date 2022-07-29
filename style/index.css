@@ -14,6 +14,15 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
+@media only screen and (max-width: 600px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* align-items: center;
+        justify-content: space-evenly; */
+    }
+}
 
 .profile img {
     height: 10vh;
@@ -55,9 +64,16 @@ hr {
     justify-content: space-between;
     font-size: small;
 }
+@media only screen and (max-width: 600px) {
+    .title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 .work .block .title {
-    line-height: 6px;
+    line-height: 1.8vh;
 }
 
 .block .details {
@@ -66,8 +82,23 @@ hr {
 
 .skill {
     font-size: small;
+    display: flex;
+    flex-direction: column;
 }
 
 .skill ul {
-    line-height: 2px;
+    line-height: 1.8vh;
+    /* padding: 1.5%; */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.skill lI {
+    text-overflow: clip;
+}
+
+@media only screen and (max-width: 400px) {
+    ul,li {
+        padding: 1%;
+    }
 }
