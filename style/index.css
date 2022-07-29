@@ -1,0 +1,73 @@
+body {
+    margin: 1%;
+    padding: 1%;
+    border: solid;
+    font-family: sans-serif;
+    /* background-color: black;
+    color: white; */
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile img {
+    height: 10vh;
+    width: 10vh;
+    border: solid;
+    border-color: black;
+    border-radius: 50%;
+}
+
+hr {
+    width: 100%;
+    text-align: left;
+    margin-left: 0
+}
+
+.info {
+    color: rgb(50, 45, 128);
+}
+
+.info span {
+    color: grey;
+    font-size: 12px;
+}
+
+.about {
+    text-align: justify;
+}
+
+.about h3 {
+    font-size: 14px;
+    color: rgb(50, 45, 128);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.work .block .title {
+    line-height: 6px;
+}
+
+.block .details {
+    font-size: small;
+}
+
+.skill {
+    font-size: small;
+}
+
+.skill ul {
+    line-height: 2px;
+}
