@@ -3,8 +3,6 @@ body {
     padding: 1%;
     border: solid;
     font-family: sans-serif;
-    /* background-color: black;
-    color: white; */
 }
 
 .profile {
@@ -19,8 +17,6 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
-        /* align-items: center;
-        justify-content: space-evenly; */
     }
 }
 
@@ -72,10 +68,6 @@ hr {
     }
 }
 
-.work .block .title {
-    line-height: 1.8vh;
-}
-
 .block .details {
     font-size: small;
 }
@@ -87,8 +79,6 @@ hr {
 }
 
 .skill ul {
-    line-height: 1.8vh;
-    /* padding: 1.5%; */
     margin-top: 0;
     padding-top: 0;
 }
