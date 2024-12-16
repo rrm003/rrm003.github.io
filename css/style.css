@@ -339,13 +339,14 @@ body {
 }
 
 .project-bio {
-    background: var(--secondary-color);
+    background: black;
     display: flex;
+    border-radius: 3%;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    top: 160px;
-    left: 10px;
+    top: 172px;
+    text-align: center;
 }
 
 /* Footer */
