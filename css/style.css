@@ -331,7 +331,6 @@ body {
 }
 
 .project-info {
-    background-color: #FBD603;
     display: flex;
     justify-content: space-between;
     opacity: 1;
@@ -340,6 +339,7 @@ body {
 }
 
 .project-bio {
+    background: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
