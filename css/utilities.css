@@ -128,9 +128,9 @@ h2::selection {
     box-shadow: inset 0 100px 1000px 10px rgba(0, 0, 0, 0.8);
 }
 
-.card:hover .project-info {
+/* .card:hover .project-info {
     opacity: 1;
-}
+} */
 
 /* Project Images */
 
